@@ -30,19 +30,31 @@ body {
 }
 
 .navbar {
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--text-light-color);
+    color: var(--text-light-color) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffeb3b !important;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active {
-    color: var(--text-color-hover);
-    background-color: var(--background-color-hover);
+    color: #ffeb3b !important;
+    background-color: transparent;
 }
 
-dropdown-menu a.dropdown-item:hover {
+.navbar-light .navbar-brand {
+    color: var(--text-light-color) !important;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: var(--text-color) !important;
+}
+
+.dropdown-menu a.dropdown-item:hover {
     background-color: var(--background-color-hover);
     color: var(--text-color-hover);
 }
