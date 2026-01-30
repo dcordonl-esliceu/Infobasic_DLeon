@@ -1,6 +1,3 @@
-<?php
-
-?>
 <?php get_header(); ?>
 <div class="container">
     <main class="site-main">

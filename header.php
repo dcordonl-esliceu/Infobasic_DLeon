@@ -12,27 +12,26 @@
         <a class="navbar-brand" href="home">Inicio</a>
         <div class="container-fluid">
             <button class="navbar-toggler"
-                type= "button"
+                type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" 
                 aria-expanded="false" 
-                aria-label="='Toggle navigation">
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <?php
-            wp_nav_menu( array(
-                'theme_location'    => 'menu-principal',
-                'depth'             => 3,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
-                'container_id'      => 'navbarNav',
-                'menu_class'        => 'navbar-nav ms-auto',
-                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                'walker'            => new WP_Bootstrap_Navwalker(),
-            ) );
-                ?>
-            </div>
+                wp_nav_menu( array(
+                    'theme_location'    => 'infobasic_menu-principal',
+                    'depth'             => 3,
+                    'container'         => 'div',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'navbarNav',
+                    'menu_class'        => 'navbar-nav mr-auto',
+                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'            => new WP_Bootstrap_Navwalker(),
+                ) );
+            ?>
         </div>
     </nav>
 </div>
