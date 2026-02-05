@@ -58,3 +58,21 @@ body {
     background-color: var(--background-color-hover);
     color: var(--text-color-hover);
 }
+
+.jumbotron {
+    color: var(--text-light-color);
+    height: 400px;
+}
+
+.jumbo-tienda{
+    background-image: url(inc/img/Makima.full.3617243.webp);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+
+.jumbo-mang{
+    background-image: url(inc/img/Chain1.jpg);
+    background-repeat:no-repeat ;
+}
+
