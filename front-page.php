@@ -13,18 +13,46 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+
+        <div class="col-md-4">
             <h2>Últimas Entradas</h2>
-            <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="<?=site_url("blog")?>" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>      
+                <div class="card" style="width: 18rem;">
+                    <img src="<?=get_theme_file_uri("inc/img/Chain1.jpg")?>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Visita nuestro Blog</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="<?=site_url("blog")?>" class="btn btn-primary">Go somewhere</a>
+                </div>
+
+                  </div>      
         </div>
+
+        <div class="col-md-4">
+                    <h2>Venta fisica</h2>
+                    <div class="card" style="width: 18rem;">
+        <img src="<?=get_theme_file_uri("inc/img/chainsaw-man-csm.gif")?>" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Visita nuestra de manga</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <a href="<?=site_url("comprar-manga")?>" class="btn btn-primary">Go somewhere</a>
+        </div>
+        
+            </div>
+        </div>
+
+            <div class="col-md-4">
+                    <h2>Venta digital</h2>
+                    <div class="card" style="width: 18rem;">
+        <img src="<?=get_theme_file_uri("inc/img/233260.webp")?>" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Visita nuestra de contenido digital</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <a href="<?=site_url("comprar-producto-digital")?>" class="btn btn-primary">Go somewhere</a>
+        </div>
+        
+            </div>
     </div>
 
+</div>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?>  
