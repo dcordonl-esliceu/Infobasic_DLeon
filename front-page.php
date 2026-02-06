@@ -21,7 +21,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Visita nuestro Blog</h5>
                     <p class="card-text">Revisa las últimas entradas de nuestro blog.</p>
-                    <a href="<?=site_url("blog")?>" class="btn btn-primary">Go somewhere</a>
+                    <a href="<?=site_url("blog")?>" class="btn btn-primary">Ir al Blog</a>
                 </div>
 
                   </div>      
@@ -34,7 +34,7 @@
         <div class="card-body">
             <h5 class="card-title">Visita nuestra tienda física</h5>
             <p class="card-text">Revisa los productos disponibles en nuestra tienda física.</p>
-            <a href="<?=site_url("comprar-manga")?>" class="btn btn-primary">Go somewhere</a>
+            <a href="<?=site_url("comprar-manga")?>" class="btn btn-primary">Ir a la tienda física</a>
         </div>
         
             </div>
@@ -47,7 +47,7 @@
         <div class="card-body">
             <h5 class="card-title">Visita nuestra tienda digital</h5>
             <p class="card-text">Revisa los productos disponibles en nuestra tienda digital.</p>
-            <a href="<?=site_url("comprar-producto-digital")?>" class="btn btn-primary">Go somewhere</a>
+            <a href="<?=site_url("comprar-producto-digital")?>" class="btn btn-primary">Ir a la tienda digital</a>
         </div>
         
             </div>
