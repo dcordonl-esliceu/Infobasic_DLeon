@@ -20,7 +20,7 @@
                     <img src="<?=get_theme_file_uri("inc/img/Chain1.jpg")?>" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">Visita nuestro Blog</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <p class="card-text">Revisa las últimas entradas de nuestro blog.</p>
                     <a href="<?=site_url("blog")?>" class="btn btn-primary">Go somewhere</a>
                 </div>
 
@@ -32,8 +32,8 @@
                     <div class="card" style="width: 18rem;">
         <img src="<?=get_theme_file_uri("inc/img/chainsaw-man-csm.gif")?>" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">Visita nuestra de manga</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <h5 class="card-title">Visita nuestra tienda física</h5>
+            <p class="card-text">Revisa los productos disponibles en nuestra tienda física.</p>
             <a href="<?=site_url("comprar-manga")?>" class="btn btn-primary">Go somewhere</a>
         </div>
         
@@ -45,8 +45,8 @@
                     <div class="card" style="width: 18rem;">
         <img src="<?=get_theme_file_uri("inc/img/233260.webp")?>" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">Visita nuestra de contenido digital</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <h5 class="card-title">Visita nuestra tienda digital</h5>
+            <p class="card-text">Revisa los productos disponibles en nuestra tienda digital.</p>
             <a href="<?=site_url("comprar-producto-digital")?>" class="btn btn-primary">Go somewhere</a>
         </div>
         
